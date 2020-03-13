@@ -4,12 +4,12 @@ class Book
 
   GENRES = []
 
-  def genre_track
-    GENRES << @genre
-  end
-
   def initialize(title)
     @title = title
+  end
+
+  def genre_track
+    GENRES << @genre
   end
 
   def turn_page
